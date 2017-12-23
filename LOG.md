@@ -18,3 +18,4 @@
 | 014 | 20-12-17 | Swing Index |
 | 015 | 21-12-17 | Accumulative Swing Index |
 | 016 | 22-12-17 | Aroon Indicator |
+| 017 | 23-12-17 | Chaikin Money Flow Index |
