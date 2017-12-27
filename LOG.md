@@ -22,3 +22,4 @@
 | 018 | 24-12-17 | Rate of Change |
 | 019 | 25-12-17 | Coppock Curve |
 | 020 | 26-12-17 | Detrended Price Oscillator |
+| 021 | 27-12-17 | Disparity Index |
