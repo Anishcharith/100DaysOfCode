@@ -24,3 +24,4 @@
 | 020 | 26-12-17 | Detrended Price Oscillator |
 | 021 | 27-12-17 | Disparity Index |
 | 022 | 28-12-17 | Choppiness Index |
+| 023 | 29-12-17 | Positive Volume Index |
