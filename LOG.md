@@ -29,4 +29,4 @@
 | 025 | 31-12-17 | Dochian Channel Width |
 | 026 | 01-01-18 | Ease Of Movement |
 | 027 | 02-01-18 | Elder Force Index |
-| 028 | 03-01-18 | Elder Ray Index |
+| 028 | 03-01-18 | Elder-Ray Index |
