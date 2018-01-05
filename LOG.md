@@ -31,3 +31,4 @@
 | 027 | 02-01-18 | Elder Force Index |
 | 028 | 03-01-18 | Elder-Ray Index |
 | 029 | 04-01-18 | Gopalkrishnan's Range Index |
+| 030 | 05-01-18 | Market Facilitation Index |
