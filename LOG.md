@@ -33,3 +33,4 @@
 | 029 | 04-01-18 | Gopalkrishnan's Range Index |
 | 030 | 05-01-18 | Market Facilitation Index |
 | 031 | 06-01-18 | Mass Index |
+| 032 | 07-01-18 | Klinger Volume Oscillator |
