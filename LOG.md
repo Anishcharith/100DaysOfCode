@@ -34,3 +34,4 @@
 | 030 | 05-01-18 | Market Facilitation Index |
 | 031 | 06-01-18 | Mass Index |
 | 032 | 07-01-18 | Klinger Volume Oscillator |
+| 033 | 08-01-18 | Random Walk Index |
