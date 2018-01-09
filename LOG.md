@@ -35,3 +35,4 @@
 | 031 | 06-01-18 | Mass Index |
 | 032 | 07-01-18 | Klinger Volume Oscillator |
 | 033 | 08-01-18 | Random Walk Index |
+| 034 | 09-01-18 | Qstick |
