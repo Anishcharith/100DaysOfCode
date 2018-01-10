@@ -36,3 +36,4 @@
 | 032 | 07-01-18 | Klinger Volume Oscillator |
 | 033 | 08-01-18 | Random Walk Index |
 | 034 | 09-01-18 | Qstick |
+| 035 | 10-01-18 | Stochastic Oscillator |
