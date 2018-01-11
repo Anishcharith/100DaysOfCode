@@ -37,3 +37,4 @@
 | 033 | 08-01-18 | Random Walk Index |
 | 034 | 09-01-18 | Qstick |
 | 035 | 10-01-18 | Stochastic Oscillator |
+| 036 | 11-01-18 | Ultimate Oscillator |
