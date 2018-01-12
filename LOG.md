@@ -38,3 +38,4 @@
 | 034 | 09-01-18 | Qstick |
 | 035 | 10-01-18 | Stochastic Oscillator |
 | 036 | 11-01-18 | Ultimate Oscillator |
+| 037 | 12-01-18 | Twiggs Money Flow Index |
