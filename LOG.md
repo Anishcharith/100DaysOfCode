@@ -40,3 +40,4 @@
 | 036 | 11-01-18 | Ultimate Oscillator |
 | 037 | 12-01-18 | Twiggs Money Flow Index |
 | 038 | 13-01-18 | TRIX |
+| 039 | 14-01-18 | Ulcer Index |
