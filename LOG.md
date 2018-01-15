@@ -41,3 +41,4 @@
 | 037 | 12-01-18 | Twiggs Money Flow Index |
 | 038 | 13-01-18 | TRIX |
 | 039 | 14-01-18 | Ulcer Index |
+| 040 | 15-01-18 | Supertrend |
