@@ -43,3 +43,4 @@
 | 039 | 14-01-18 | Ulcer Index |
 | 040 | 15-01-18 | Supertrend |
 | 041 | 16-01-18 | Williams % R |
+| 042 | 17-01-18 | Chande Momentum Oscillator |
