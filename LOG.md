@@ -44,3 +44,4 @@
 | 040 | 15-01-18 | Supertrend |
 | 041 | 16-01-18 | Williams % R |
 | 042 | 17-01-18 | Chande Momentum Oscillator |
+| 043 | 18-01-18 | Verticle Horizontal Filter |
