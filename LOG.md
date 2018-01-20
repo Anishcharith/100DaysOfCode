@@ -46,3 +46,4 @@
 | 042 | 17-01-18 | Chande Momentum Oscillator |
 | 043 | 18-01-18 | Verticle Horizontal Filter |
 | 044 | 19-01-18 | Parabolic SAR |
+| 045 | 20-01-18 | Percentage Volume Oscillator |
