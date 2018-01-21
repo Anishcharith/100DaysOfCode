@@ -9,4 +9,5 @@ def MACD(price,fast_period=12,slow_period=26,signal_period=9):
     slow=EMA(price,slow_period)
     macd=[x-y for (x,y) in zip(fast,slow)]
     signal=EMA(macd,signal_period)
-    return macd,signal
+    histogram=[i-j for (i,j) in zip(macd,signal)]
+    return macd,signal,histogram
