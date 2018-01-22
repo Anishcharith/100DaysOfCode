@@ -48,3 +48,4 @@
 | 044 | 19-01-18 | Parabolic SAR |
 | 045 | 20-01-18 | Percentage Volume Oscillator |
 | 046 | 21-01-18 | Elder Impulse System |
+| 047 | 22-01-18 | Linear Regression Forecast |
