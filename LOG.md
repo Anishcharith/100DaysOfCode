@@ -49,3 +49,4 @@
 | 045 | 20-01-18 | Percentage Volume Oscillator |
 | 046 | 21-01-18 | Elder Impulse System |
 | 047 | 22-01-18 | Linear Regression Forecast |
+| 048 | 23-01-18 | Aroon Oscillator |
