@@ -50,3 +50,4 @@
 | 046 | 21-01-18 | Elder Impulse System |
 | 047 | 22-01-18 | Linear Regression Forecast |
 | 048 | 23-01-18 | Aroon Oscillator |
+| 049 | 24-01-18 | STARC Bands |
