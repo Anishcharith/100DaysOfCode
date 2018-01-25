@@ -51,3 +51,4 @@
 | 047 | 22-01-18 | Linear Regression Forecast |
 | 048 | 23-01-18 | Aroon Oscillator |
 | 049 | 24-01-18 | STARC Bands |
+| 050 | 25-01-18 | Average Directional Movement Index |
