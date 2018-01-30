@@ -55,4 +55,5 @@
 | 051 | 26-01-18 | Downloading Data |
 | 052 | 27-01-18 | Simple Backtesting Framework |
 | 053 | 28-01-18 | Model Based on BB and KC |
-| 054 | 29-01-18 | Model Based Keltner Channel |
+| 054 | 29-01-18 | Model Based on Keltner Channel |
+| 055 | 30-01-18 | Model Based on PSAE and Supertrend |
