@@ -57,3 +57,4 @@
 | 053 | 28-01-18 | Model Based on BB and KC |
 | 054 | 29-01-18 | Model Based on Keltner Channel |
 | 055 | 30-01-18 | Model Based on PSAE and Supertrend |
+| 056 | 31-01-18 | Model Based on TMF |
