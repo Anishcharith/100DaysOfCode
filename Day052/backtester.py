@@ -9,17 +9,22 @@ def main():
     buystate=0
     buy_res=[]
     sell_res=[]
-    buy_a,sell_a,stoploss_a=model.main(comp)
     date=[]
     i=0
     f=open('result.txt','w')
     data=pd.read_csv('../Data/'+comp+'.csv')
-    close_p=np.flipud(data['Close'].values)
-    open_p=np.flipud(data['Open'].values)
-    low_p=np.flipud(data['Low'].values)
-    high_p=np.flipud(data['High'].values)
-    volume=np.flipud(data['Total Trade Quantity'].values)
-    Date=np.flipud(data['Date'].values)
+    if len(sys.argv)>3:
+        days=int(sys.argv[3])
+    else:
+        days=len(data.index)
+    print(days)
+    close_p=np.flipud(data['Close'].values[0:days])
+    open_p=np.flipud(data['Open'].values[0:days])
+    low_p=np.flipud(data['Low'].values[0:days])
+    high_p=np.flipud(data['High'].values[0:days])
+    volume=np.flipud(data['Total Trade Quantity'].values[0:days])
+    Date=np.flipud(data['Date'].values[0:days])
+    buy_a,sell_a,stoploss_a=model.main(comp,days)
 
     while(i<len(buy_a)):
         if buystate==0 and buy_a[i]==1:

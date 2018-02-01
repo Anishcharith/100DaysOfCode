@@ -37,13 +37,15 @@ def stoploss(open_p,close_p,low_p,high_p,volume):
     stoploss=[0 for i in range(len(close_p))]
     return stoploss
 
-def main(comp):
+def main(comp,days=None):
     data=pd.read_csv('../Data/'+comp+'.csv')
-    close_p=np.flipud(data['Close'].values)
-    open_p=np.flipud(data['Open'].values)
-    low_p=np.flipud(data['Low'].values)
-    high_p=np.flipud(data['High'].values)
-    volume=np.flipud(data['Total Trade Quantity'].values)
+    if days==None:
+        days=len(data.index)
+    close_p=np.flipud(data['Close'].values[0:days])
+    open_p=np.flipud(data['Open'].values[0:days])
+    low_p=np.flipud(data['Low'].values[0:days])
+    high_p=np.flipud(data['High'].values[0:days])
+    volume=np.flipud(data['Total Trade Quantity'].values[0:days])
     buy_a=buy(open_p,close_p,low_p,high_p,volume)
     sell_a=sell(open_p,close_p,low_p,high_p,volume)
     stoploss_a=stoploss(open_p,close_p,low_p,high_p,volume)
