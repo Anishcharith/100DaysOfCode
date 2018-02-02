@@ -2,7 +2,7 @@ import sys
 sys.path.insert(0,'../Day006/')
 from ATR import ATR
 
-def supertrend(close,high,low,period,multiplier):
+def supertrend(close,high,low,period=7,multiplier=3):
     atr=ATR(close,high,low,period)
     basic_upper=[(i-j)/2+multiplier*k for (i,j,k) in zip(high,low,atr)]
     basic_lower=[(i-j)/2-multiplier*k for (i,j,k) in zip(high,low,atr)]
