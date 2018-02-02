@@ -59,3 +59,4 @@
 | 055 | 30-01-18 | Model Based on PSAE and Supertrend |
 | 056 | 31-01-18 | Model Based on TMF |
 | 057 | 01-02-18 | Model Based on TRIX |
+| 058 | 02-02-18 | Model Based on ADX and Supertrend |
