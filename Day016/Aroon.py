@@ -8,4 +8,5 @@ def Aroon(close,period=14):
         h=close[i-period+1:i].index(max(close[i-period+1:i])) 
         Aroon_up.append((h+1)*100/25)
         Aroon_down.append((l+1)*100/25)
-    return Aroon_up,Aroon_down
+    oscillator=[i-j for (i,j) in zip(Aroon_up,Aroon_down)]
+    return Aroon_up,Aroon_down,oscillator
