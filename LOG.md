@@ -62,3 +62,4 @@
 | 058 | 02-02-18 | Model Based on ADX and Supertrend |
 | 059 | 03-02-18 | Model Based on PSAR, TRIX and Supertrend |
 | 060 | 04-02-18 | Model Based on Aroon Oscillator, TRIX and Supertrend |
+| 061 | 05-02-18 | Model Based on PSAR, Coppock Curve |
