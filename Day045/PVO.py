@@ -3,7 +3,7 @@ import numpy as np
 sys.path.insert(0,'../Day002')
 from EMA import EMA
 
-def PVO(volume,shortperiod,longperiod):
+def PVO(volume,shortperiod=12,longperiod=26):
     emashort=EMA(volume,shortperiod)
     emalong=EMA(volume,longperiod)
     pvo=list(np.zeros(longperiod-1))
