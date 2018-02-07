@@ -64,3 +64,4 @@
 | 060 | 04-02-18 | Model Based on Aroon Oscillator, TRIX and Supertrend |
 | 061 | 05-02-18 | Model Based on PSAR, Coppock Curve |
 | 062 | 06-02-18 | Model Based on PSAR, PVO and CMF |
+| 063 | 07-02-18 | Model Based on Keltner Channel and PVO |
