@@ -1,6 +1,6 @@
 import numpy as np
 
-def CMO(close,period):
+def CMO(close,period=9):
     cmo=list(np.zeros(period))
     for i in range(period,len(close)):
         su=0
