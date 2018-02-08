@@ -65,3 +65,4 @@
 | 061 | 05-02-18 | Model Based on PSAR, Coppock Curve |
 | 062 | 06-02-18 | Model Based on PSAR, PVO and CMF |
 | 063 | 07-02-18 | Model Based on Keltner Channel and PVO |
+| 064 | 08-02-18 | Model Based on Ultimate Oscillator, ADX  and CMO |
