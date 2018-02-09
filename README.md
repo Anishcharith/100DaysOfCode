@@ -5,6 +5,6 @@
 * Not sure if I can find 100 technical indicators :p will try my best.
 
 edit: (Day 50)  
-Have run out of technical indicators as suspected, XD  
+Have run out of technical indicators as expected, XD  
 Will start coding Backtesting scripts from Day 51  
 
