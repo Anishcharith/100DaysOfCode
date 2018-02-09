@@ -8,6 +8,5 @@ def ChoppinessIndex(close,high,low,period=14):
     CI=list(np.zeros(period-1))
     for i in range(period-1,len(close)):
         x=(100*np.log10(sum(atr[i-period+1:i])/((max(high[i-period+1:i])-min(low[i-period+1:i])))))
-        print(x)
         CI.append(100*np.log10(sum(atr[i-period+1:i])/((max(high[i-period+1:i])-min(low[i-period+1:i]))))/np.log10(period))
     return CI
