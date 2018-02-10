@@ -67,3 +67,4 @@
 | 063 | 07-02-18 | Model Based on Keltner Channel and PVO |
 | 064 | 08-02-18 | Model Based on Ultimate Oscillator, ADX  and CMO |
 | 065 | 09-02-18 | Model Based on CI and MFI |
+| 066 | 10-02-18 | Backtester for Nifty50 companies |
