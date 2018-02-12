@@ -4,18 +4,21 @@ import pandas as pd
 import numpy as np
 comp=sys.argv[1]
 # Technical indicators
-sys.path.insert(0,'../Day019/')
+sys.path.insert(0,'../Day017/')
 sys.path.insert(0,'../Day044/')
+sys.path.insert(0,'../Day045/')
+from CMF import CMF
+from PVO import PVO
 from PSAR import PSAR
-from CoppockCurve import CoppockCurve
 # --------------------
 
 def buy(open_p,close_p,low_p,high_p,volume):
     buy=[0]
-    sar=PSAR(close_p)
-    ccurve=CoppockCurve(close_p)
+    pvo=PVO(volume,12,26)
+    cmf=CMF(close_p,low_p,high_p,volume,20)
+    psar=PSAR(close_p)
     for i in range(1,len(close_p)):
-        if ccurve[i]<0 and sar[i]<close_p[i]:
+        if cmf[i]<0 and pvo[i]<0 and psar[i]<close_p[i]:
             buy.append(1)
         else:
             buy.append(0)
@@ -23,9 +26,9 @@ def buy(open_p,close_p,low_p,high_p,volume):
 
 def sell(open_p,close_p,low_p,high_p,volume):
     sell=[0]
-    ccurve=CoppockCurve(close_p)
+    cmf=CMF(close_p,low_p,high_p,volume,20)
     for i in range(1,len(close_p)):
-        if ccurve[i]>=0 :
+        if cmf[i]>=0 :
             sell.append(1)
         else:
             sell.append(0)
