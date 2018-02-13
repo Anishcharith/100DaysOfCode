@@ -70,3 +70,4 @@
 | 066 | 10-02-18 | Backtester for Nifty50 companies |
 | 067 | 11-02-18 | Pipelined 2 models |
 | 068 | 12-02-18 | Script to pipeline any number of models |
+| 069 | 13-02-18 | Model Based on CI and PSAR |
