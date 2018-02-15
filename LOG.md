@@ -72,3 +72,4 @@
 | 068 | 12-02-18 | Script to pipeline any number of models |
 | 069 | 13-02-18 | Model Based on CI and PSAR |
 | 070 | 14-02-18 | Model Based on smart money and crowd money |
+| 071 | 15-02-18 | Model Based on CI and Alligator |
