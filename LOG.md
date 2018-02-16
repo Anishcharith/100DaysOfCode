@@ -73,3 +73,4 @@
 | 069 | 13-02-18 | Model Based on CI and PSAR |
 | 070 | 14-02-18 | Model Based on smart money and crowd money |
 | 071 | 15-02-18 | Model Based on CI and Alligator |
+| 072 | 16-02-18 | Model Based on UO |
