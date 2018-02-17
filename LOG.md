@@ -74,3 +74,4 @@
 | 070 | 14-02-18 | Model Based on smart money and crowd money |
 | 071 | 15-02-18 | Model Based on CI and Alligator |
 | 072 | 16-02-18 | Model Based on UO |
+| 073 | 17-02-18 | Model Based on William's % Index |
