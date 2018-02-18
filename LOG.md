@@ -75,3 +75,4 @@
 | 071 | 15-02-18 | Model Based on CI and Alligator |
 | 072 | 16-02-18 | Model Based on UO |
 | 073 | 17-02-18 | Model Based on William's % Index |
+| 074 | 18-02-18 | Pipelined models from Day61 and Day73 |
