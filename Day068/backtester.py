@@ -2,7 +2,6 @@ import sys
 import os
 import numpy as np
 import pandas as pd
-import model
 from pipeliner import pipeliner
 
 def main(comp,days):
