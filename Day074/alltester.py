@@ -12,7 +12,7 @@ def main(days):
     totaldaysused=0
     for comp in NIFTYnse:
         result,daysused=backtester.main(comp,int(days))
-        f.write(comp+' : '+str(result)+'\n')
+        f.write(comp+':'+str(result)+':Days Used:'+str(daysused)+'\n')
         sumi+=result
         totaldaysused+=daysused
     print(sumi/50)
