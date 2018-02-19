@@ -76,3 +76,4 @@
 | 072 | 16-02-18 | Model Based on UO |
 | 073 | 17-02-18 | Model Based on William's % Index |
 | 074 | 18-02-18 | Pipelined models from Day61 and Day73 |
+| 075 | 19-02-18 | wrote a script to order the Companies based on number of days held by a model |
