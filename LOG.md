@@ -82,3 +82,4 @@
 | 078 | 22-02-18 | Model based on SO and PSAR |
 | 079 | 23-02-18 | Model based on Qstick and PSAR |
 | 080 | 25-02-18 | Model based on DI and PSAR |
+| 081 | 26-02-18 | Model based on MI and Supertrend |
