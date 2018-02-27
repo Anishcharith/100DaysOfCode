@@ -1,4 +1,4 @@
-def VHF(close,period):
+def VHF(close,period=28):
     HCP=[]
     LCP=[]
     sums=[close[0]]
