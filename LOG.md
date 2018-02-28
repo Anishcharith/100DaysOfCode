@@ -83,3 +83,5 @@
 | 079 | 23-02-18 | Model based on Qstick and PSAR |
 | 080 | 25-02-18 | Model based on DI and PSAR |
 | 081 | 26-02-18 | Model based on MI and Supertrend |
+| 082 | 27-02-18 | Model based on VHF and Supertrend |
+| 083 | 28-02-18 | Modification to notify if buy today |
