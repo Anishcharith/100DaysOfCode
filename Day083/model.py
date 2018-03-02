@@ -3,18 +3,18 @@ import sys
 import pandas as pd
 import numpy as np
 # Technical indicators
-sys.path.insert(0,'../Day031/')
-sys.path.insert(0,'../Day040/')
-from MassIndex import MassIndex
-from supertrend import supertrend 
+sys.path.insert(0,'../Day023/')
+sys.path.insert(0,'../Day024/')
+from PVI import PVI
+from NVI import NVI
 # --------------------
 
 def buy(open_p,close_p,low_p,high_p,volume):
     buy=[0]
-    mi=MassIndex(high_p,low_p)
-    st=supertrend(close_p,high_p,low_p)
+    pvi=PVI(close_p,volume)
+    nvi=NVI(close_p,volume)
     for i in range(1,len(close_p)):
-        if mi[i]>=25 and st[i]<close_p[i]:
+        if pvi[i]<pvi[i-1] and nvi[i]>=nvi[i-1]:
             buy.append(1)
         else:
             buy.append(0)
@@ -22,22 +22,16 @@ def buy(open_p,close_p,low_p,high_p,volume):
 
 def sell(open_p,close_p,low_p,high_p,volume):
     sell=[0]
-    mi=MassIndex(high_p,low_p)
+    nvi=NVI(close_p,volume)
     for i in range(1,len(close_p)):
-        if mi[i]>27:
+        if nvi[i]<nvi[i-1]:
             sell.append(1)
         else:
             sell.append(0)
     return sell
 
 def stoploss(open_p,close_p,low_p,high_p,volume):
-    stoploss=[0]
-    mi=MassIndex(high_p,low_p)
-    for i in range(1,len(close_p)):
-        if mi[i]<25:
-            stoploss.append(1)
-        else:
-            stoploss.append(0)
+    stoploss=[0 for i in range(len(close_p))]
     return stoploss
 
 def main(comp,days=None,start=0):
