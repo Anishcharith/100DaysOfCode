@@ -85,3 +85,5 @@
 | 081 | 26-02-18 | Model based on MI and Supertrend |
 | 082 | 27-02-18 | Model based on VHF and Supertrend |
 | 083 | 28-02-18 | Modification to notify if buy today |
+| 084 | 02-03-18 | Modification to notify trigger of Stoploss or Sell signal |
+| 085 | 03-03-18 | Model based on EIS,ERI and ADX |
