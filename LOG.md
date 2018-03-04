@@ -87,3 +87,4 @@
 | 083 | 28-02-18 | Modification to notify if buy today |
 | 084 | 02-03-18 | Modification to notify trigger of Stoploss or Sell signal |
 | 085 | 03-03-18 | Model based on EIS,ERI and ADX |
+| 086 | 04-03-18 | Added AIMD model for long and short |
