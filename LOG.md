@@ -56,7 +56,7 @@
 | 052 | 27-01-18 | Simple Backtesting Framework |
 | 053 | 28-01-18 | Model Based on BB and KC |
 | 054 | 29-01-18 | Model Based on Keltner Channel |
-| 055 | 30-01-18 | Model Based on PSAE and Supertrend |
+| 055 | 30-01-18 | Model Based on PSAR and Supertrend |
 | 056 | 31-01-18 | Model Based on TMF |
 | 057 | 01-02-18 | Model Based on TRIX |
 | 058 | 02-02-18 | Model Based on ADX and Supertrend |
@@ -88,3 +88,4 @@
 | 084 | 02-03-18 | Modification to notify trigger of Stoploss or Sell signal |
 | 085 | 03-03-18 | Model based on EIS,ERI and ADX |
 | 086 | 04-03-18 | Added AIMD model for long and short |
+| 087 | 05-03-18 | Model based on ROC and PSAR |
