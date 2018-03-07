@@ -3,7 +3,7 @@ sys.path.insert(0,'../Day001/')
 from SMA import SMA
 import numpy as np
 
-def LRF(close,period):
+def LRF(close,period=14):
     sma=SMA(close,period)
     m=list(np.zeros(period))
     b=list(np.zeros(period))
