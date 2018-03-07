@@ -90,3 +90,4 @@
 | 086 | 04-03-18 | Added AIMD model for long and short |
 | 087 | 05-03-18 | Model based on ROC and PSAR |
 | 088 | 06-03-18 | Model based on KVO and Supertrend |
+| 089 | 07-03-18 | Model based on LRF and PSAR |
