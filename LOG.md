@@ -92,4 +92,5 @@
 | 088 | 06-03-18 | Model based on KVO and Supertrend |
 | 089 | 07-03-18 | Model based on LRF and PSAR |
 | 090 | 08-03-18 | Model based on CCI and ROC |
-| 090 | 08-03-18 | Model based on GAPO and PSAR |
+| 091 | 09-03-18 | Model based on GAPO and PSAR |
+| 092 | 10-03-18 | Model based on RSI |
