@@ -94,3 +94,4 @@
 | 090 | 08-03-18 | Model based on CCI and ROC |
 | 091 | 09-03-18 | Model based on GAPO and PSAR |
 | 092 | 10-03-18 | Model based on RSI |
+| 093 | 11-03-18 | Python script to run all models |
