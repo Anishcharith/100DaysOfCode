@@ -96,3 +96,4 @@
 | 092 | 10-03-18 | Model based on RSI |
 | 093 | 11-03-18 | Python script to run all models |
 | 094 | 12-03-18 | Model based on PSAR and MFI |
+| 095 | 13-03-18 | Model based on GAPO and MFI |
