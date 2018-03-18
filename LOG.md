@@ -101,3 +101,4 @@
 | 097 | 15-03-18 | One day model for small caps |
 | 098 | 16-03-18 | Python code to plot gap between price and sma |
 | 099 | 17-03-18 | Python code to analyse model performance and price sma relation |
+| 100 | 18-03-18 | Put all the work of 99 days into this directory |
